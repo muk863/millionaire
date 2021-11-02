@@ -59,47 +59,7 @@ final class GameViewController: UIViewController {
             answerLable.layer.cornerRadius = cornerRadius
             answerLable.layer.masksToBounds = true
         }
-
-//        callFriendView.layer.cornerRadius = cornerRadius
-//        callFriendView.layer.masksToBounds = true
-//
-//        hallHelpView.layer.cornerRadius = cornerRadius
-//        hallHelpView.layer.masksToBounds = true
-//        
-//        
-//        let tapHallHelpGestureRecognize = UITapGestureRecognizer(target: self, action: #selector(tapHelp))
-//        hallHelpView.addGestureRecognizer(tapHallHelpGestureRecognize)
-//        
-//        let tapCallFriendGestureRecognize = UITapGestureRecognizer(target: self, action: #selector(tapHelp))
-//        callFriendView.addGestureRecognizer(tapCallFriendGestureRecognize)
-//        
-//        let tapFiftyHelpGestureRecognize = UITapGestureRecognizer(target: self, action: #selector(tapHelp))
-//        fiftyHelpView.addGestureRecognizer(tapFiftyHelpGestureRecognize)
     }
-
-//    @objc func tapHelp(_ sender: UITapGestureRecognizer){
-//        switch sender.view {
-//        case hallHelpView:
-//            self.session.hallHelp = false
-//            sender.view?.isHidden = true
-//        case callFriendView:
-//            self.session.hallHelp = false
-//            sender.view?.isHidden = true
-//        case fiftyHelpView:
-//            self.session.fiftyHelp = false
-//            sender.view?.isHidden = true
-//        default:
-//            break
-//        }
-//        
-//    }
-
-//    @objc func tapCallFriend(_ sender: UITapGestureRecognizer){
-//        if session.callFriend {
-//            session.callFriend = false
-//            sender.view?.isHidden = true
-//        }
-//    }
     
     @objc func tapAnswer(_ sender: UITapGestureRecognizer){
         guard let answerLable = sender.view as? UILabel,

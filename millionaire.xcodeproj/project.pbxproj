@@ -88,16 +88,16 @@
 		3D972C06272C183300DE746F /* millionaire */ = {
 			isa = PBXGroup;
 			children = (
-				3D972C3C272D5E9200DE746F /* Builder */,
-				3D972C34272D54F200DE746F /* Cell */,
 				3D972C07272C183300DE746F /* AppDelegate.swift */,
 				3D972C09272C183300DE746F /* SceneDelegate.swift */,
+				3D972C32272C77A500DE746F /* Objects */,
+				3D972C34272D54F200DE746F /* Cell */,
+				3D972C3C272D5E9200DE746F /* Builder */,
 				3D972C25272C457100DE746F /* Observable */,
 				3D972C39272D5D5300DE746F /* Strategy */,
 				3D972C33272C77DD00DE746F /* Helper */,
 				3D972C28272C5A0100DE746F /* Controllers */,
 				3D972C29272C5F8B00DE746F /* Extension */,
-				3D972C32272C77A500DE746F /* Objects */,
 				3D972C0D272C183300DE746F /* Main.storyboard */,
 				3D972C10272C183400DE746F /* Assets.xcassets */,
 				3D972C12272C183400DE746F /* LaunchScreen.storyboard */,
